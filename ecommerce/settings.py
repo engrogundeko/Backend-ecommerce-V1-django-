@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -31,6 +30,9 @@ INSTALLED_APPS = [
     "ecommerce.inventory",
     "mptt",
     "ecommerce.demo"
+    "ecommerce.drf"
+    # external app
+    # "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -105,7 +107,7 @@ USE_I18N = True
 
 # USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
